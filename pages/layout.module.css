@@ -1,0 +1,48 @@
+
+.floatcontainer {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  
+  .floatchild {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+  }
+  
+  .flexcontainer {
+    display: flex;
+  }
+  
+  .flexchild {
+    flex: 1;
+    border: 2px solid yellow;
+  }  
+  
+  .flexchild:firstchild {
+    margin-right: 20px;
+  } 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left-div {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .right-div {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .tab {
+    display: none;
+  }
